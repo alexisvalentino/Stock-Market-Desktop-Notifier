@@ -3,7 +3,7 @@ import time
 from plyer import notification
 from alpha_vantage.timeseries import TimeSeries
 
-api_key = '<your_api_key>'
+api_key = '<insert api key>'
 ts = TimeSeries(key=api_key)
 
 while True:
